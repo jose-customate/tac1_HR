@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Povežite svoj backend - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate pomaže tvrtkama integrirati njihove backend sustave s našim AI rješenjem za korisničku podršku. Povežite se sa Salesforce, Zendesk, Shopify i drugim sustavima.">
+  </head>
+  <body>
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> Hrvatski <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Deutsch</a>
+          <a href="#">English</a>
+          <a href="#">Español</a>
+            <a href="#" class="active"><i class="fas fa-check"></i> Hrvatski</a>
+          <a href="#">Norsk</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integracije</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Kanali
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Cijene</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blog</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Prijava</a>
+              <a href="#" class="navbar-item btn-primary">Registracija</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+<main>
+  <section class="terms-content">
+    <h1>Opći uvjeti poslovanja</h1>
+    
+    <h2>1. Uvod</h2>
+    
+    <h3>1.1 Svrha Općih uvjeta poslovanja</h3>
+    <p>Ovi Opći uvjeti poslovanja (dalje u tekstu "Ugovor") uređuju korištenje usluge koju pruža Customated SSA UG (od sada nadalje "Customate") i opisuju prava i obveze korisnika i pružatelja usluge. Posjećivanjem naše web stranice, sudjelovanjem u konzultacijama te pristupom ili korištenjem naše usluge, pristajete biti vezani ovim uvjetima.</p>
+    
+    <h3>1.2 Područje primjene</h3>
+    <p>Ovi uvjeti vrijede za sve korisnike koji pristupaju, koriste ili komuniciraju s našom uslugom, bilo kao pojedinci, tvrtke ili treće strane. Oni uređuju sve aktivnosti unutar naše platforme, uključujući sve povezane značajke, sadržaj i alate.</p>
+    
+    <h2>2. Registracija korisnika i računi</h2>
+    
+    <h3>2.1 Stvaranje računa i podobnost</h3>
+    <p>Za korištenje naše usluge, Korisnik mora stvoriti račun pružajući točne i potpune informacije. Korisnik mora imati najmanje 18 godina ili imati pravnu sposobnost sklapanja ugovora. Registracijom Korisnik potvrđuje podobnost za korištenje naše usluge.</p>
+    
+    <h3>2.2 Odgovornosti korisnika</h3>
+    <p>Korisnici su odgovorni za održavanje povjerljivosti svojih podataka za prijavu, uključujući korisničko ime i lozinku. Korisnik je isključivo odgovoran za točnost, sadržaj i zakonitost svih Korisničkih podataka. Korisnik se posebno obvezuje da neće koristiti Usluge za prikupljanje, pohranu, obradu ili prijenos bilo kakvih Osjetljivih osobnih podataka. Korisnik pristaje koristiti uslugu na odgovoran i etički način, u skladu s ovim Općim uvjetima poslovanja i svim primjenjivim zakonima.</p>
+    
+    <h3>2.3 Sigurnost računa</h3>
+    <p>Korisnik je dužan implementirati odgovarajuće mjere za zaštitu svojih računa. Korisnik mora odmah obavijestiti pružatelja usluge ako postoji sumnja na neovlašteni pristup njihovom računu.</p>
+    
+    <h2>3. Plaćanje</h2>
+    
+    <h3>3.1 Pretplatnički planovi i naknade</h3>
+    <p>Korisnik pristaje na pretplatničke planove i povezane naknade kako je navedeno na web stranici usluge ili dogovoreno u zasebnom ugovoru, te utvrđeno u odgovarajućem Narudžbenom obrascu. Dodatno, korisnik može imati kreditni saldo ako premaši ograničenje uporabe postavljeno u osnovnom pretplatničkom planu. Svaka promjena cijena bit će unaprijed komunicirana i automatski naplaćena, osim ako korisnik ne otkaže pretplatu.</p>
+    
+    <h3>3.2 Načini i uvjeti plaćanja</h3>
+    <p>Korisnik može platiti uslugu koristeći sljedeće načine plaćanja: kreditne kartice (uz povećanje cijene od 2%) i izravne bankovne prijenose. Plaćanja se moraju izvršiti unaprijed, osim ako nije drugačije navedeno u ugovoru.</p>
+    <p>Ako Korisnik kupuje Usluge putem kreditne kartice, debitne kartice ili bilo kojeg drugog načina ponavljajućeg plaćanja koji Customate prihvaća, primjenjuju se sljedeći uvjeti: Ovlašteno je ponavljajuće terećenje, Korisnik plaća sve naknade za inozemne transakcije i odgovoran je za sve promjene u podacima o načinu plaćanja.</p>
+    <p>Nevažeće plaćanje: Ako plaćanje nije uspješno izvršeno zbog isteka Načina ponavljajućeg plaćanja, nedostatka sredstava ili iz drugih razloga, Korisnik ostaje odgovoran za sve iznose koji nisu uplaćeni Customateu, a Customate može, prema vlastitom nahođenju, (i) izravno fakturirati Korisniku manjkavi iznos, (ii) nastaviti naplatiti putem Načina ponavljajućeg plaćanja nakon što ga Korisnik ažurira (ako je primjenjivo) ili (iii) raskinuti ovaj Ugovor.</p>
+    
+    <h3>3.3 Fakturiranje i porezi</h3>
+    <p>Usluga će izdavati račune u skladu s Korisnikovim pretplatničkim planom. Customate će Korisniku naplatiti mjesečnu pretplatu unaprijed za svako obračunsko razdoblje. Korisnikov račun također će uključivati naknade za jednokratne usluge koje je Korisnik naručio. Sve naknade su bez primjenjivih poreza, koji će biti naplaćeni u skladu s lokalnim zakonima i propisima.</p>
+    
+    <h3>3.4 Kašnjenja u plaćanju i posljedice</h3>
+    <p>Ako Korisnik ne izvrši plaćanje na vrijeme, Customate zadržava pravo suspendirati ili prekinuti pristup usluzi.</p>
+    
+    <h3>3.5 Trajanje pretplate i obnove</h3>
+    <p><strong>a) Mjesečno trajanje pretplate.</strong> Za mjesečnu pretplatu, Pretplatničko razdoblje automatski će se obnavljati na mjesečnoj osnovi. Svaki sljedeći ugovorni mjesec smatrat će se "razdobljem obnove". Korisnik može otkazati mjesečnu pretplatu u bilo kojem trenutku odlaskom na stranicu "Postavke" u Nadzornoj ploči, a datum efektivnog raskida bit će posljednji dan trenutnog razdoblja obnove.</p>
+    <p><strong>b) Godišnje ili višegodišnje trajanje pretplate.</strong> Za godišnju ili višegodišnju pretplatu, početno Pretplatničko razdoblje utvrđeno je u Narudžbenom obrascu. Pretplatničko razdoblje automatski će se obnoviti za dodatna, uzastopna dvanaestomjesečna razdoblja (svako "razdoblje obnove"), osim ako jedna od strana ne dostavi drugoj pisanu obavijest o namjeri neobnavljanja najmanje trideset (30) dana prije isteka početnog Pretplatničkog razdoblja ili trenutnog razdoblja obnove. Korisnik će poslati pisanu obavijest o namjeri neobnavljanja na contact@customate.ai</p>
+    
+    <h2>4. Korištenje usluge</h2>
+    
+    <h3>4.1 Dopušteno korištenje</h3>
+    <p>Korisnik može pristupiti i koristiti uslugu isključivo za njezinu predviđenu svrhu. Korištenje i pristup Uslugama dopušteni su samo Ovlaštenim korisnicima. Ovo je pretplatnički ugovor za pristup i korištenje Usluga. Korisnik priznaje da stječe samo ograničeno pravo na Usluge i da se nikakva vlasnička prava ne prenose na Korisnika prema ovom Ugovoru. Korištenje mora biti u skladu s primjenjivim zakonima, ugovornim sporazumima i ovim Općim uvjetima poslovanja.</p>
+    
+    <h3>4.2 Zabranjene aktivnosti</h3>
+    <p>Korisniku i svim korisnicima strogo je zabranjeno:</p>
+    <ul>
+      <li>Korištenje usluge za nezakonite, prijevarne ili obmanjujuće svrhe;</li>
+      <li>Manipuliranje ili pokušaj iskorištavanja AI sustava izvan njegove predviđene funkcije.</li>
+      <li>Implementacija chatbota na način koji promiče govor mržnje, nasilje ili nezakoniti sadržaj.</li>
+      <li>Prekoračenje politika poštenog korištenja koje mogu utjecati na stabilnost sustava ili umanjiti kvalitetu usluge za druge korisnike.</li>
+    </ul>
+    
+    <h3>4.3 Ograničenje korištenja</h3>
+    <p>Usluga može nametnuti ograničenja korištenja uključujući, ali ne ograničavajući se na broj interakcija, API zahtjeva ili chatbot sesija.</p>
+    
+    <h3>4.4 Povratne informacije</h3>
+    <p>Korisnik uvijek može poslati Povratne informacije Customateu. Customate može slobodno koristiti ili iskorištavati Povratne informacije u vezi s Uslugama i tehnologijom tvrtke. Korisnik ovime daje Customateu trajnu, neekskluzivnu, prenosivu, neopozivu, svjetsku, besplatnu licencu (s pravima podlicenciranja) za izradu, korištenje, prodaju, ponudu za prodaju, reprodukciju, modificiranje, distribuciju, stavljanje na raspolaganje, javno prikazivanje i izvođenje, otkrivanje i drugačije komercijalno iskorištavanje Povratnih informacija.</p>
+    
+    <h3>4.5 Korištenje imena i logotipa Korisnika</h3>
+    <p>Postajući korisnik Customatea, Korisnik daje pravo prikazivanja svog imena tvrtke i logotipa na web stranici Customatea, odredišnim stranicama i marketinškim materijalima kako bi se ukazalo na naš poslovni odnos. Ovo korištenje je samo u promotivne svrhe i ne podrazumijeva nikakvo odobrenje. Korisnik može odustati, pružanjem pisanog zahtjeva na jose@customate.ai.</p>
+    
+    <h3>4.6 Vlasništvo nad sadržajem web stranice</h3>
+    <p>Svi tekstovi, slike, logotipi, zaštitni znakovi i drugi sadržaji na web stranici intelektualno su vlasništvo pružatelja usluge ili njegovih davatelja licence, osim ako nije drugačije navedeno. Neovlaštena reprodukcija, distribucija ili modifikacija bilo kojih materijala strogo je zabranjena bez prethodnog pisanog pristanka.</p>
+    
+    <h2>5. Sadržaj trećih strana i licenciranje</h2>
+    
+    <h3>5.1 Korištenje sadržaja trećih strana</h3>
+    <p>Usluga može integrirati ili pružiti pristup sadržaju trećih strana, uključujući softver, API-je, izvore podataka ili druge vanjske usluge. Korisnik priznaje da je takav sadržaj trećih strana podložan uvjetima i odredbama te licencnim ugovorima odgovarajućih pružatelja usluga.</p>
+    
+    <h3>5.2 Licenciranje i intelektualno vlasništvo</h3>
+    <p>Sav sadržaj trećih strana koji se koristi unutar usluge ostaje vlasništvo njegovih odgovarajućih vlasnika. Korisniku se dodjeljuje neekskluzivna, neprenosiva licenca za korištenje takvog sadržaja strogo u okviru predviđene funkcionalnosti usluge. Svaka neovlaštena reprodukcija, distribucija ili modifikacija sadržaja trećih strana je zabranjena.</p>
+    
+    <h3>5.3 Odricanje od odgovornosti</h3>
+    <p>Customate ne preuzima odgovornost za točnost, dostupnost ili performanse sadržaja trećih strana. Sve smetnje, pogreške ili gubici koji proizlaze iz integracija trećih strana izvan su kontrole pružatelja usluge. Korisnik i svi korisnici suglasni su da pružatelj usluge neće biti odgovoran za štetu koja proizlazi iz sadržaja trećih strana, uključujući sigurnosne ranjivosti, povrede podataka ili sporove oko licenciranja.</p>
+    
+    <h2>6. Odgovornost i jamstva</h2>
+    
+    <h3>6.1 Jamstva usluge i ograničenja</h3>
+    <p>Usluga se pruža "kakva jest" i "kako je dostupna". Iako pružatelj usluge teži visokoj dostupnosti i pouzdanosti, ne daju se jamstva u pogledu neprekinutog ili rada bez pogrešaka. Pružatelj usluge ne jamči da će usluga ispuniti sve specifične zahtjeve ili funkcionirati bez prekida, bugova ili ranjivosti. Customate neće biti odgovoran za pogreške u prijenosu, neovlašteni pristup trećih strana ili druge uzroke izvan kontrole Customatea.</p>
+    
+    <h3>6.2 Odgovornost za pogreške ili nedostupnost</h3>
+    <p>Pružatelj usluge nije odgovoran za privremenu nedostupnost, pogreške ili prekide usluge zbog održavanja, tehničkih kvarova, kibernetičkih napada ili događaja više sile.</p>
+    
+    <h3>6.3 Ostale odgovornosti Customatea</h3>
+    <p>Pružatelj usluge odgovoran je samo za štetu uzrokovanu grubom nepažnjom ili namjernim prekršajem, kako to dopušta primjenjivi zakon. Odgovornost za neizravnu, slučajnu ili posljedičnu štetu - kao što su izgubljena dobit, gubitak podataka ili prekidi poslovanja - je isključena. Korisnik preuzima punu odgovornost za osiguravanje da korištenje usluge bude u skladu s primjenjivim propisima i poslovnim zahtjevima.</p>
+    <p>Korisnik neće riješiti nikakvu tužbu koja uključuje Customate bez prethodnog pisanog pristanka Customatea, osim ako rješenje u potpunosti i bezuvjetno oslobađa Customate i ne zahtijeva od Customatea da plati bilo koji iznos, poduzme bilo koju radnju ili prizna bilo kakvu odgovornost.</p>
+    
+    <h3>6.4 Odgovornosti Korisnika</h3>
+    <p>Korisnik će obeštetiti, braniti i držati Customate neodgovornim od i protiv svih zahtjeva trećih strana (uključujući, bez ograničenja, Ljude), troškova, šteta, gubitaka, obveza i troškova (uključujući razumne odvjetničke naknade i troškove) koji proizlaze iz ili se odnose na bilo koje Korisničke podatke, Korisnikovo korištenje Aplikacije za poruke treće strane, Platforme treće strane ili kršenja ili navodnog kršenja od strane Korisnika Odjeljka 2.2.</p>
+    
+    <h2>7. Raskid i otkazivanje</h2>
+    
+    <h3>7.1 Otkazivanje od strane Korisnika</h3>
+    <p>Korisnik može otkazati svoju pretplatu ili račun u bilo kojem trenutku slijedeći postupke otkazivanja navedene na platformi usluge. Otkazivanje će stupiti na snagu na kraju trenutnog obračunskog razdoblja, osim ako nije drugačije navedeno. Korisnik će ostati odgovoran za sve naknade nastale do datuma otkazivanja.</p>
+    
+    <h3>7.2 Raskid od strane Pružatelja usluge</h3>
+    <p>Pružatelj usluge zadržava pravo raskinuti ili suspendirati Korisnikov pristup usluzi u slučaju kršenja ovih Općih uvjeta poslovanja, uključujući ali ne ograničavajući se na neovlašteno korištenje, neizvršavanje pravovremenih plaćanja ili kršenje primjenjivih zakona, ili iz bilo kojeg drugog razloga, isključivo prema nahođenju tvrtke. Pružatelj usluge može dati prethodnu obavijest gdje je to moguće, ali trenutni raskid može uslijediti u slučajevima teških kršenja.</p>
+    
+    <h3>7.3 Posljedice raskida</h3>
+    <p>Nakon raskida ili otkazivanja Korisnikovog računa, pristup usluzi bit će ukinut, a svi podaci povezani s računom mogu biti izbrisani, podložno bilo kojim zakonskim ili ugovornim zahtjevima za zadržavanje podataka. Korisnik će ostati odgovoran za sva nepodmirena plaćanja u trenutku raskida.</p>
+    
+    <h2>8. Drugi elementi</h2>
+    <p>Politike o Zaštiti podataka i privatnosti, Sigurnosti i pravnom statusu Customatea dijele se na web stranici: www.customate.ai</p>
+    
+    <h2>9. Izmjene uvjeta</h2>
+    
+    <h3>9.1 Pravo na izmjenu uvjeta</h3>
+    <p>Pružatelj usluge zadržava pravo modificirati, ažurirati ili mijenjati ove Opće uvjete poslovanja u bilo kojem trenutku. Ove promjene mogu biti napravljene kako bi odražavale promjene u zakonu, poboljšanja usluge ili iz drugih operativnih razloga.</p>
+    
+    <h3>9.2 Obavijest o promjenama</h3>
+    <p>Korisnik će biti obaviješten o svim materijalnim promjenama Općih uvjeta poslovanja putem e-pošte ili putem obavijesti na platformi usluge. Obavijesti će biti poslane unaprijed gdje je to moguće, a sve nadogradnje bit će jasno označene s datumom stupanja na snagu promjena.</p>
+    
+    <h3>9.3 Prihvaćanje promjena od strane Korisnika</h3>
+    <p>Nastavak korištenja usluge nakon obavijesti o promjenama smatrat će se Korisnikovim prihvaćanjem ažuriranih Općih uvjeta poslovanja. Ako se Korisnik ne slaže s promjenama, može otkazati svoj račun kako je predviđeno u Odjeljku 7 (Raskid i otkazivanje).</p>
+    
+    <h2>10. Rješavanje sporova i mjerodavno pravo</h2>
+    
+    <h3>10.1 Postupak rješavanja pritužbi</h3>
+    <p>U slučaju spora ili pritužbe, Korisnik bi prvo trebao kontaktirati tim za korisničku podršku pružatelja usluge kako bi pokušao riješiti problem sporazumno. Pružatelj usluge će uložiti razumne napore da se pozabavi Korisnikovim zabrinutostima promptno i u skladu s primjenjivim zakonima. Ako se spor ne može riješiti izravnom komunikacijom, Korisnik može zatražiti posredovanje ili alternativno rješavanje sporova (ARS) u skladu s primjenjivim propisima.</p>
+    
+    <h3>10.2 Mjerodavno pravo</h3>
+    <p>Ovi Opći uvjeti poslovanja uređeni su i tumače se u skladu sa zakonima Njemačke, bez obzira na odredbe o sukobu zakona.</p>
+    
+    <h3>10.3 Nadležnost</h3>
+    <p>Svi sporovi koji se ne mogu riješiti neformalnom komunikacijom ili ARS-om bit će podložni isključivoj nadležnosti nadležnih sudova u Njemačkoj.</p>
+    
+    <h2>11. Izostanak razne klauzule</h2>
+    <p>Ovaj ugovor ne uključuje zasebni odjeljak "Razno", jer su takve odredbe inherentno ugrađene u prirodu svakog ugovora. Načela koja su obično obuhvaćena klauzulom razno - kao što su odvojivost, odricanje i izvršivost - temeljni su aspekti ugovornog tumačenja i primjene, čineći njihovo eksplicitno ponovno navođenje nepotrebnim. Njihovo izostavljanje ne umanjuje njihovu valjanost ili učinak, već priznaje samodostatnost ugovora kao pravnog instrumenta.</p>
+    
+    <h2>12. Kontakt informacije</h2>
+    
+    <h3>12.1 Podrška i upiti</h3>
+    <p>Za sva pitanja, zabrinutosti ili zahtjeve za podrškom, Korisnik može kontaktirati naš tim za korisničku podršku putem sljedećih kanala:</p>
+    <ul>
+      <li>E-pošta: admin (a,t) customate.ai </li>
+      <li>Customate Chat: Dostupan na platformi usluge</li>
+    </ul>
+    <p>Podrška je dostupna tijekom radnog vremena, a nastojimo odgovoriti na upite što je prije moguće.</p>
+    
+    <h3>12.2 Prijavljivanje problema</h3>
+    <p>Ako Korisnik naiđe na bilo kakve tehničke probleme, sigurnosne zabrinutosti ili kršenja Općih uvjeta poslovanja, trebao bi ih odmah prijaviti pružatelju usluge. Izvještaji se mogu podnijeti putem:</p>
+    <ul>
+      <li>E-pošta: admin (a,t) customate.ai </li>
+    </ul>
+    <p>Pružatelj usluge će istražiti sve izvještaje i poduzeti odgovarajuće radnje na temelju ozbiljnosti i prirode problema.</p>
+  </section>
+</main>
+
+  </body>
+</html>
